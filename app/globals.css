@@ -1,15 +1,81 @@
+
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+} */
+
+@theme {
+  /* Colors */
+  --color-grey: #555555;
+  --color-orange: #E75F27;
+  --color-blue: #226195;
+  --color-black: #3E3E3ED9;
+  --color-lightGray: #EBEBEB;
+  --color-darkGray: #485665;
+  --color-darkBlack: #000000;
+  --color-button: #E75F27;        /* Button background */
+  --color-button-text: #ffffff;   /* Button text */
+  
+  /* Font Family */
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* Font Sizes with Line Height and Weight */
+  --font-size-h1: 3rem;
+  --line-height-h1: 1.2;
+  --font-weight-h1: 700;
+  --font-size-h2: 2rem;
+  --line-height-h2: 1.6;
+  --font-weight-h2: 500;
+  --font-size-h3: 1.3125rem;
+  --line-height-h3: 1.5;
+  --font-weight-h3: 400;
+  --font-size-h4: 1.3125rem;
+  --line-height-h4: 1.5;
+  --font-weight-h4: 500;
+
+  /* Spacing */
+  --spacing-50: 2.77rem;
+  --spacing-70: 3.88rem;
+  --spacing-150: 8.33rem;
+  --spacing-120: 6.66rem;
+  --spacing-200: 11.11rem;
+  --spacing-250: 13.88rem;
+  --spacing-270: 15rem;
+  --spacing-100: 5.55rem;
+  --spacing-20: 1.11rem;
+  --spacing-30: 1.66rem;
+  --spacing-10: 0.55rem;
+
+  /* Height */
+  --height-68: 3.75rem;
+  --height-100: 5.55rem;
+
+  /* Container */
+  --container-padding: 1rem;
+  --container-max-width-sm: 640px;
+  --container-max-width-md: 768px;
+  --container-max-width-lg: 1024px;
+  --container-max-width-xl: 1280px;
+  --container-max-width-2xl: 1440px;
+
+  /* Screens (Breakpoints) */
+  --breakpoint-xxs: 100px;
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
 }
 
 @media (prefers-color-scheme: dark) {
