@@ -21,7 +21,7 @@ const ColFourWrap = () => {
                      height={50}
                    />
             </div>
-            <div className="text-center">
+            <div className="text-center bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black p-[40px] absolute top-[120px] rounded-xl">
               <h3 className="text-white text-xl font-semibold mb-2">
                 Menu variations
               </h3>
@@ -31,7 +31,7 @@ const ColFourWrap = () => {
               <div>
                 <a
                   href="#"
-                  className="text-lg text-button inline-block"
+                  className="text-lg text-button inline-block hover:text-white"
                 >
                   Learn more
                 </a>
@@ -41,8 +41,8 @@ const ColFourWrap = () => {
         </div>
         {/* Item 2 */}
         <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-          <div className="max-w-5xs">
-          <div className="image-wrap relative ">
+          <div className="max-w-5xs relative">
+          <div className="image-wrap ">
                    <Image
                      src="/image/featureOne.svg"
                      alt="featureOne"
@@ -50,7 +50,7 @@ const ColFourWrap = () => {
                      height={305}
                    />
                   </div>
-            <div className="text-center">
+            <div className="text-center bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black p-[40px] absolute top-[120px] rounded-xl">
               <h3 className="text-white text-xl font-semibold mb-2">
                 Menu variations
               </h3>
@@ -60,7 +60,7 @@ const ColFourWrap = () => {
               <div>
                 <a
                   href="#"
-                  className="text-lg text-button inline-block"
+                  className="text-lg text-button hover:text-white"
                 >
                   Learn more
                 </a>
@@ -70,7 +70,7 @@ const ColFourWrap = () => {
         </div>
         {/* Item 3 */}
         <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-          <div className="max-w-5xs">
+          <div className="max-w-5xs relative">
             <div className="image-wrap">
                    <Image
                      src="/image/featureOne.svg"
@@ -79,7 +79,7 @@ const ColFourWrap = () => {
                      height={305}
                    />
             </div>
-          <div className="text-center">
+          <div className="text-center bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black p-[40px] absolute top-[120px] rounded-xl">
               <h3 className="text-white text-xl font-semibold mb-2">
                 Menu variations
               </h3>
@@ -89,7 +89,7 @@ const ColFourWrap = () => {
               <div>
                 <a
                   href="#"
-                  className="text-lg text-button inline-block"
+                  className="text-lg text-button hover:text-white"
                 >
                   Learn more
                 </a>
@@ -99,7 +99,7 @@ const ColFourWrap = () => {
         </div>
         {/* Item 4 */}
         <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-          <div className="max-w-5xs">
+          <div className="max-w-5xs relative">
             <div className="image-wrap">
                    <Image
                      src="/image/featureOne.svg"
@@ -108,7 +108,7 @@ const ColFourWrap = () => {
                      height={305}
                    />
             </div>
-            <div className="text-center">
+            <div className="text-center bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black p-[40px] absolute top-[120px] rounded-xl">
               <h3 className="text-white text-xl font-semibold mb-2">
                 Menu variations
               </h3>
@@ -116,7 +116,7 @@ const ColFourWrap = () => {
                 Sed ut perspiciatis unde omnis iste natus error
               </p>
               <div>
-                <a href="#" className="text-lg text-button inline-block">
+                <a href="#" className="text-lg text-button hover:text-white">
                   Learn more
                 </a>
               </div>
