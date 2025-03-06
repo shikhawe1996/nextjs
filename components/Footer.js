@@ -5,8 +5,8 @@ const Footer = () => {
       <div className="container px-[160px] py-[50px]">
         <div className="col-wrap flex gap-4 items-center">
           <div className="col-span-2 w-2/5">
-            <div className="image-wrap flex items-center gap-4">
-              <Image src="/image/logo.svg" alt="logo" width={56} height={56} />
+            <div className="image-wrap flex items-center gap-3">
+              <Image src="/logo.png" alt="logo" width={56} height={56} />
               <p className="text-2xl text-white font-bold">Chef Kitchen.</p>
             </div>
             <div className="logo-description mt-5 max-w-xs">

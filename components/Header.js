@@ -6,8 +6,8 @@ const Header = () => {
       <div className="container px-[160px]">
         <div className="flex justify-between items-center py-4">
           <div className="logo">
-            <div className="image-wrap flex items-center ">
-              <Image src="/image/logo.svg" alt="logo" width={56} height={56} />
+            <div className="image-wrap flex gap-3 items-center justify-center">
+              <Image src="/logo.png" alt="logo" width={56} height={56} />
               <p className="text-2xl text-white font-bold">Chef Kitchen.</p>
             </div>
           </div>
