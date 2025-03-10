@@ -10,7 +10,7 @@ const Footer = () => {
               <p className="text-2xl text-white font-bold">Chef Kitchen.</p>
             </div>
             <div className="logo-description mt-5 max-w-xs">
-              <p className='text-xs text-darkGray mt-[8px] '>
+              <p className='text-xs text-white mt-[8px] '>
                 Open an account in minutes, get full financial control for much
                 longer.
               </p>
@@ -22,87 +22,87 @@ const Footer = () => {
                 <h3 className="text-xl mb-[20px] font-bold">Company</h3>
                 <ul>
                   <li className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
+                    <a className="text-base text-white hover:text-orange  " href="#">
                       About
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                     Careers
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                      Mobile
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange  " href="#">
+                      Blog
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                      How we work?
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="wrap w-1/3">
-                <h3 className="text-xl mb-[20px] font-bold">Company</h3>
+                <h3 className="text-xl mb-[20px] font-bold">Information</h3>
                 <ul>
                   <li className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange  " href="#">
+                      Help/FAQ
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                     Press
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange  " href="#">
+                     Affiliates
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                     Hotel owners
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange" href="#">
+                     Partners
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="wrap w-1/3">
-                <h3 className="text-xl mb-[20px] font-bold">Company</h3>
+                <h3 className="text-xl mb-[20px] font-bold">More</h3>
                 <ul>
                   <li className= " mb-[10px] ">
-                    <a className="text-base text-darkGray mb-[20px] " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                     Home
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray  " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange  " href="#">
+                      About us
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray   " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange   " href="#">
+                     Recipe
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray " href="#">
-                      About
+                    <a className="text-base  text-white hover:text-orange " href="#">
+                     Gallery
                     </a>
                   </li>
                   <li  className= " mb-[10px] ">
-                    <a className="text-base text-darkGray " href="#">
+                    <a className="text-base  text-white hover:text-orange " href="#">
                       About
                     </a>
                   </li>
@@ -110,6 +110,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="footer-bottom mt-[50px] flex justify-center items-center border-t-1 border-gray-500 py-[20px]">  
+          <p className="text-white text-sm">
+          @2025 - Chef kitchen. Distributed By ThemeWagon and Developed by GetNextjsTemplates
+          </p>
+        
         </div>
       </div>
     </footer>

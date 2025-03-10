@@ -3,7 +3,7 @@ const HeroBanner = () => {
   return (
     <section className="hero-banner text-gray-100">
      <div className="container px-[160px] py-[100px]">
-      <div className="wrapper flex items-center"> 
+      <div className="wrapper flex items-center xxs:max-md:w-full xxs:max-md:flex-col"> 
        <div className="content-wrap w-[50%] ">
         <h1 className='text-7xl font-semibold text-white mb-[20px]'>Cook anything with the experts</h1>
         <p className='text-lg text-white mb-[50px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem

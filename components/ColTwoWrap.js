@@ -4,7 +4,7 @@ const ColTwoWrap = () => {
   return (
     <section className="col-two-wrap">
         <div className="container px-[160px] py-[80px]">
-         <div className="col-wrap flex gap-4 items-center">
+         <div className="col-wrap flex gap-4 items-center xxs:max-md:w-full xxs:max-md:flex-col">
             <div className="image-wrap w-[50%]">
                 <Image
                   src="/image/cook.png"

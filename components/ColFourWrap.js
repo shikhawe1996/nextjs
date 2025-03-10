@@ -9,7 +9,7 @@ const ColFourWrap = () => {
           Get a many of interesting features.
         </h2>
        </div>
-       <div className="flex flex-wrap justify-center  -mx-4"> 
+       <div className="flex flex-wrap justify-center  -mx-4 xxs:max-md:w-full xxs:max-md:flex-col"> 
         {/* Item 1 */}
         <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8 "> 
           <div className="max-w-5xs relative">
@@ -123,7 +123,7 @@ const ColFourWrap = () => {
             </div>
           </div>
         </div>
-      </div>
+       </div>
       </div>
     </section>
 );
