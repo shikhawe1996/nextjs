@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 const CardWithText = () => {
   return (
-    <section className="card-with-text ">
-        <div className="container px-[160px] py-[80px]">
+    <section className="card-with-text py-[80px] ">
+        <div className="container">
           <div className="heading text-center group">
             <h5 className="text-lg text-orange uppercase mb-[12px]">Our Gallery</h5>
             <h2 className="text-5xl font-semibold text-white mb-[50px]">
               Gallery of our cooked food.
             </h2>
           </div>
-          <div className="flex flex-wrap justify-center gap-8 -mx-4 xxs:max-md:w-full xxs:max-md:flex-col ">
+          <div className="flex  justify-center gap-8 mx-4 xxs:max-md:w-full xxs:max-md:flex-col xxs:max-md:items-center xxs:max-md:flex-wrap ">
               <div className="wrap">
                   <div className="card relative group">
                      <div className="image-wrap relative overflow-hidden rounded-3xl mb-6  group">

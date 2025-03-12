@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from 'next/link'
 const Header = () => {
   return (
     <header>
@@ -14,24 +14,36 @@ const Header = () => {
           <nav>
             <ul className="flex gap-8">
               <li>
-                <a className="text-xl  text-white hover:text-orange uppercase" href="#">
+                <Link
+                  href="#"
+                  className="text-xl  text-white hover:text-orange uppercase"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="text-xl  text-white hover:text-orange uppercase" href="#">
+                <Link
+                  href="/about"
+                  className="text-xl  text-white hover:text-orange uppercase"
+                >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="text-xl  text-white hover:text-orange uppercase" href="#">
+                <Link
+                  href="/recipe"
+                  className="text-xl  text-white hover:text-orange uppercase"
+                >
                   Recipe
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="text-xl  text-white hover:text-orange uppercase" href="#">
+                <Link
+                  href="/gallery"
+                  className="text-xl  text-white hover:text-orange uppercase"
+                >
                   Gallery
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

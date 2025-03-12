@@ -3,9 +3,9 @@ import Image from "next/image";
 const ColTwoWrap = () => {
   return (
     <section className="col-two-wrap">
-        <div className="container px-[160px] py-[80px]">
+        <div className="container">
          <div className="col-wrap flex gap-4 items-center xxs:max-md:w-full xxs:max-md:flex-col">
-            <div className="image-wrap w-[50%]">
+            <div className="image-wrap w-[50%] xxs:max-md:w-full">
                 <Image
                   src="/image/cook.png"
                   alt="cook"
@@ -13,7 +13,7 @@ const ColTwoWrap = () => {
                   height={714}
                   />
             </div>
-            <div className="content-wrap w-[50%]">
+            <div className="content-wrap w-[50%] xxs:max-md:w-full">
                 <h5 className="text-lg text-orange uppercase mb-[12px]">cook with us</h5>
                 <h2 className="text-5xl font-semibold text-white">Cooking together with the expert.</h2>
                 <p className='text-lg text-darkGray mt-[8px] max-w-lg'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</p>
