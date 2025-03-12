@@ -15,7 +15,7 @@ const Header = () => {
             <ul className="flex gap-8">
               <li>
                 <Link
-                  href="#"
+                  href="/"
                   className="text-xl  text-white hover:text-orange uppercase"
                 >
                   Home
