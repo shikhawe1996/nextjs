@@ -39,7 +39,7 @@ function HamburgerMenuCollapse({ children, open }) {
         : { height: 0, visibility: 'hidden', opacity: 0 };
 
     return (
-        <div className=" absolute w-full h-[210px] l-0 top-[26%] bg-black text-white pl-[12px] overflow-auto" style={inlineStyle} ref={ref}>
+        <div className=" absolute w-full h-[210px] l-0 top-[20%] bg-black text-white pl-[12px] overflow-auto" style={inlineStyle} ref={ref}>
             {children}
         </div>
     );
@@ -50,7 +50,7 @@ function HamburgerMenuNav({ children }) {
 }
 
 function HamburgerMenuItem({ children }) {
-    return <li className="mt-[20px]">{children}</li>;
+    return <li className="mb-[15px]">{children}</li>;
 }
 
 function HamburgerMenuLink({ children, href }) {
@@ -80,7 +80,7 @@ const Hamburger = () => {
     return (
         <HamburgerMenu bgColor="bg-black" textColor="text-white">
             <HamburgerMenuBrand href="#">
-                <div className="image-wrap flex gap-3 ">
+                <div className="image-wrap flex gap-3 items-center">
                     <Image src="/logo.png" alt="logo" width={56} height={56} />
                     <p className="text-2xl text-white font-bold">Chef Kitchen.</p>
                 </div>

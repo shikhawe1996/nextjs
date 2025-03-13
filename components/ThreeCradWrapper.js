@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ThreeCardWrapper = () => {
     return (
-        <section className="three-card-wrap pt-[80px]">
+        <section className="three-card-wrap">
             <div className="container">
                 <div className="heading text-center group mb-[80px]">
                     <h5 className="text-lg text-orange uppercase mb-[12px]">Our Features</h5>
@@ -21,7 +21,7 @@ const ThreeCardWrapper = () => {
                         <div className="text-wrap text-center mt-[30px]">
                             <h5 className="text-xl font-semibold text-white mt-[20px">Lorem ipsum dolor sit amet.
                             </h5>
-                            <p lassName='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
+                            <p className='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
                             <div className="btn">
                                 <a href="#">Learn more</a>
                             </div>
@@ -39,7 +39,7 @@ const ThreeCardWrapper = () => {
                         <div className="text-wrap text-center mt-[30px]">
                             <h5 className="text-xl font-semibold text-white mt-[20px">Lorem ipsum dolor sit amet.
                             </h5>
-                            <p lassName='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
+                            <p className='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
                             <div className="btn">
                                 <a href="#">Learn more</a>
                             </div>
@@ -57,7 +57,7 @@ const ThreeCardWrapper = () => {
                         <div className="text-wrap text-center mt-[30px]">
                             <h5 className="text-xl font-semibold text-white mt-[20px">Lorem ipsum dolor sit amet.
                             </h5>
-                            <p lassName='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
+                            <p className='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
                             <div className="btn">
                                 <a href="#">Learn more</a>
                             </div>
@@ -75,7 +75,7 @@ const ThreeCardWrapper = () => {
                         <div className="text-wrap text-center mt-[30px]">
                             <h5 className="text-xl font-semibold text-white mt-[20px">Lorem ipsum dolor sit amet.
                             </h5>
-                            <p lassName='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
+                            <p className='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
                             <div className="btn">
                                 <a href="#">Learn more</a>
                             </div>
@@ -93,7 +93,7 @@ const ThreeCardWrapper = () => {
                         <div className="text-wrap text-center mt-[30px]">
                             <h5 className="text-xl font-semibold text-white mt-[20px">Lorem ipsum dolor sit amet.
                             </h5>
-                            <p lassName='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
+                            <p className='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
                             <div className="btn">
                                 <a href="#">Learn more</a>
                             </div>
@@ -111,7 +111,7 @@ const ThreeCardWrapper = () => {
                         <div className="text-wrap text-center mt-[30px]">
                             <h5 className="text-xl font-semibold text-white mt-[20px">Lorem ipsum dolor sit amet.
                             </h5>
-                            <p lassName='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
+                            <p className='text-lg text-darkGray mt-[15px] max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quibusdam sapiente vitae autem cumque laboriosam, pariatur velit obcaecati minus dignissimos!</p>
                             <div className="btn">
                                 <a href="#">Learn more</a>
                             </div>
