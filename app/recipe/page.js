@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Header from "@/components/common/header/Header";
 import BannerThirdLevel from "@/components/BannerThirdLevel";
 import ThreeCardWrapper from "@/components/ThreeCradWrapper";
 import ColTwoWrap from "@/components/ColTwoWrap";
