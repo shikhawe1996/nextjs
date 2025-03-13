@@ -4,7 +4,7 @@ import ThreeCardWrapper from "@/components/ThreeCradWrapper";
 import ColTwoWrap from "@/components/ColTwoWrap";
 import FourCardWrap from"@/components/FourCardWrap";
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/common/Footer";
 
 
 export default function Home() { 
