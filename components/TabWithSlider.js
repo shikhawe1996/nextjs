@@ -19,9 +19,9 @@ export const TabPage = () => (
 /* Tab logic */
 
 const style = {
-    notSelected: `border-b text-sm`,
-    selected: `text-gray-700 text-sm border-b-2 border-orange `,
-    default: `-mb-2 text-white text-xl font-semibold mb-2 md:px-8 py-4 md:py-1 inline-block focus:outline-none `,
+    notSelected: `border-b text-3xl`,
+    selected: `text-gray-700 text-3xl border-b-2 border-orange `,
+    default: `-mb-2 text-white text-3xl font-bold mb-2 md:px-8 py-4 md:py-1 inline-block focus:outline-none `,
 };
 
 function Tabs({ children }) {
@@ -54,7 +54,7 @@ function Tabs({ children }) {
 
 function Tab({ children, selected }) {
     return (
-        <div hidden={!selected} className="mt-[30px] text-2xl text-semibold">
+        <div hidden={!selected} className="mt-[30px] text-xl text-semibold">
             {children}
         </div>
     );

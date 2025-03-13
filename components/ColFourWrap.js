@@ -51,7 +51,7 @@ const ColFourWrap = () => {
                    />
                   </div>
             <div className="text-center bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black p-[40px] absolute top-[120px] rounded-xl mt-[10px]">
-              <h3 className="text-white text-3xl font-semibold mb-2">
+              <h3 className="text-white text-xl font-semibold mb-2">
                 Menu variations
               </h3>
               <p className="text-white mb-4">
