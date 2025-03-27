@@ -8,9 +8,9 @@ const HeroBanner = () => {
         <h1 className='text-7xl font-semibold text-white mb-[20px]'>Cook anything with the experts</h1>
         <p className='text-lg text-white mb-[50px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam</p>
-        <div className="btn-wrap">
+        <div className="btn-wrap flex xxs:max-md:flex-col">
           <a className="border-1 border-orange bg-orange rounded-full py-[20px] px-[56px] text-xl text-white mr-[24px] hover:text-orange hover:bg-white hover:border-white" href="#">Lets Cook</a>
-          <a className="border-1 text-orange rounded-full py-[20px] px-[56px] text-xl hover:text-white " href="#">Explore now</a>
+          <a className=" xxs:max-md:mt-4 border-1 text-orange rounded-full py-[20px] px-[56px] text-xl hover:text-white " href="#">Explore now</a>
         </div>
        </div>
        <div className="image-wrap w-[50%] xxs:max-lg:w-full">

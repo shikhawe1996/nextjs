@@ -1,9 +1,9 @@
 import Image from "next/image";
 const Footer = () => {
   return (
-    <footer className="w-full">
+    <footer className="w-full xxs:max-md:py-70">
       <div className="container px-[160px] py-[50px]">
-        <div className="col-wrap flex gap-4 items-center">
+        <div className="col-wrap flex gap-4 items-center xxs:max-md:flex-col">
           <div className="col-span-2 w-2/5">
             <div className="image-wrap flex items-center gap-3">
               <Image src="/logo.png" alt="logo" width={56} height={56} />
@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-2 w-3/5">
-            <div className="wrapper flex gap-4">
+            <div className="wrapper flex gap-4 xxs:max-md:flex-col">
               <div className="wrap w-1/3">
                 <h3 className="text-xl mb-[20px] font-bold">Company</h3>
                 <ul>

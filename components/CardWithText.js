@@ -1,113 +1,111 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const CardWithText = () => {
   return (
     <section className="card-with-text py-[80px] ">
-        <div className="container">
-          <div className="heading text-center group">
-            <h5 className="text-lg text-orange uppercase mb-[12px]">Our Gallery</h5>
+      <div className="container">
+        <div className="content-wrap flex gap-8 xxs:max-md:flex-col">
+          <div className="left-wrap w-[50%] xxs:max-md:w-full">
+            <h5 className="text-lg text-orange uppercase mb-[12px]">
+              Our Gallery
+            </h5>
             <h2 className="text-5xl font-semibold text-white mb-[50px]">
               Gallery of our cooked food.
             </h2>
+            <p className="text-lg text-white mt-[30px] max-w-lg">
+              {" "}
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam{" "}
+            </p>
+            <div className="btn-wrap mt-[60px]">
+              <a
+                className="border-1 border-white bg-white rounded-full py-[20px] px-[36px] text-xl text-orange"
+                href="#"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
-          <div className="flex  justify-center gap-8 mx-4 xxs:max-md:w-full xxs:max-md:flex-col xxs:max-md:items-center xxs:max-md:flex-wrap ">
-              <div className="wrap">
-                  <div className="card relative group">
-                     <div className="image-wrap relative overflow-hidden rounded-3xl mb-6  group">
-                       <Image
-                               src="/image/foodOne.jpg"
-                               alt="food-image"
-                               width={604}
-                               height={801}
-                               className="rounded-lg"
-                        />
-                     </div>
-                     <div className="content-wrap w-full   rounded-3xl  absolute bg-black/40  hidden group-hover:block group-hover:h-full group-hover:top-0 duration-500 p-12 ">
-                        <div className="content-wrap absolute group-hover:top-[80%] ">
-                             <p className="text-white text-2xl text-semibold">Name: Caesar Salad(187 Kcal)</p>
-                             <div className="price-wrap flex justify-between w-full items-center mt-[20px]">
-                                  <p className="text-white text-2xl" >Price: $10.00</p>
-                                  <a href="#" className="text-lg border-1 border-white bg-white rounded-full py-[10px] px-[36px] text-orange hover:text-white hover:bg-orange hover:border-orange">Order Now</a>
-                             </div>
-                        </div>
-
-                     </div>
-            
-                  </div>
-                  <div className="card relative group">
-                     <div className="image-wrap relative overflow-hidden rounded-3xl mb-6 group  ">
-                       <Image
-                               src="/image/foodTwo.jpg"
-                               alt="food-image"
-                               width={604}
-                               height={401}
-                               className="rounded-lg"
-                        />
-                     </div>
-                     <div className="content-wrap w-full   rounded-3xl  absolute bg-black/40  hidden group-hover:block group-hover:h-full group-hover:top-0 duration-500 p-12 ">
-                        <div className="content-wrap absolute group-hover:top-[50%] ">
-                             <p className="text-white text-2xl text-semibold">Name: Caesar Salad(187 Kcal)</p>
-                             <div className="price-wrap flex justify-between w-full items-center mt-[20px]">
-                                  <p className="text-white text-2xl" >Price: $10.00</p>
-                                  <a href="#" className="text-lg border-1 border-white bg-white rounded-full py-[10px] px-[36px] text-orange hover:text-white hover:bg-orange hover:border-orange">Order Now</a>
-                             </div>
-                        </div>
-
-                     </div>
-            
-                  </div>
+          <div className="right-wrap w-[50%]">
+            <div className="box-card flex flex-wrap gap-[24px] xxs:max-md:flex-col">
+              <div className="cards group  bg-orange card relative w-[288px] h-[170px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[240px]">
+                <div className="image-wrap">
+                  <Image
+                    src="/image/feature-icon-2.svg"
+                    alt="featureOne"
+                    width={22}
+                    height={22}
+                  />
+                </div>
+                <h3 className="text-white text-xl font-semibold mb-2">E-Prescribing</h3>
+                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[240px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="wrap ">
-                  <div className="card relative group">
-                     <div className="image-wrap relative overflow-hidden rounded-3xl mb-6 group">
-                       <Image
-                               src="/image/foodThree.jpg"
-                               alt="food-image"
-                               width={605}
-                               height={375}
-                               className="rounded-lg"
-                        />
-                     </div>
-                     <div className="content-wrap w-full   rounded-3xl  absolute bg-black/40  hidden group-hover:block group-hover:h-full group-hover:top-0 duration-300 p-12 ">
-                        <div className="content-wrap absolute group-hover:top-[60%] ">
-                             <p className="text-white text-2xl text-semibold">Name: Caesar Salad(187 Kcal)</p>
-                             <div className="price-wrap flex justify-between w-full items-center mt-[20px]">
-                                  <p className="text-white text-2xl" >Price: $10.00</p>
-                                  <a href="#" className="text-lg border-1 border-white bg-white rounded-full py-[10px] px-[36px] text-orange hover:text-white hover:bg-orange hover:border-orange">Order Now</a>
-                             </div>
-                        </div>
-
-                     </div>
-            
-                  </div>
-                  <div className="card relative group">
-                     <div className="image-wrap relative overflow-hidden rounded-3xl mb-6  group">
-                       <Image
-                               src="/image/foodFour.jpg"
-                               alt="food-image"
-                               width={604}
-                               height={906}
-                               className="rounded-lg"
-                        />
-                     </div>
-                     <div className="content-wrap w-full   rounded-3xl  absolute bg-black/40  hidden group-hover:block group-hover:h-full group-hover:top-0 duration-500 p-12 ">
-                        <div className="content-wrap absolute group-hover:top-[80%] ">
-                             <p className="text-white text-2xl text-semibold">Name: Caesar Salad(187 Kcal)</p>
-                             <div className="price-wrap flex justify-between w-full items-center mt-[20px]">
-                                  <p className="text-white text-2xl" >Price: $10.00</p>
-                                  <a href="#" className="text-lg border-1 border-white bg-white rounded-full py-[10px] px-[36px] text-orange hover:text-white hover:bg-orange hover:border-orange">Order Now</a>
-                             </div>
-                        </div>
-
-                     </div>
-            
-                  </div>
-            
+              <div className="cards group  bg-orange card relative w-[288px] h-[170px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[240px]">
+                <div className="image-wrap">
+                  <Image
+                    src="/image/feature-icon-2.svg"
+                    alt="featureOne"
+                    width={22}
+                    height={22}
+                  />
+                </div>
+                <h3 className="text-white text-xl font-semibold mb-2">E-Prescribing</h3>
+                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[240px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
+              <div className="cards group  bg-orange card relative w-[288px] h-[170px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[240px]">
+                <div className="image-wrap">
+                  <Image
+                    src="/image/feature-icon-2.svg"
+                    alt="featureOne"
+                    width={22}
+                    height={22}
+                  />
+                </div>
+                <h3 className="text-white text-xl font-semibold mb-2">E-Prescribing</h3>
+                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[240px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+              </div>
+              <div className="cards group  bg-orange card relative w-[288px] h-[170px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[240px]">
+                <div className="image-wrap">
+                  <Image
+                    src="/image/feature-icon-2.svg"
+                    alt="featureOne"
+                    width={22}
+                    height={22}
+                  />
+                </div>
+                <h3 className="text-white text-xl font-semibold mb-2">E-Prescribing</h3>
+                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[240px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+              </div>
+              <div className="cards group  bg-orange card relative w-[288px] h-[170px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[240px]">
+                <div className="image-wrap">
+                  <Image
+                    src="/image/feature-icon-2.svg"
+                    alt="featureOne"
+                    width={22}
+                    height={22}
+                  />
+                </div>
+                <h3 className="text-white text-xl font-semibold mb-2">E-Prescribing</h3>
+                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[240px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+              </div>
+              <div className="cards group  bg-orange card relative w-[288px] h-[170px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[240px]">
+                <div className="image-wrap">
+                  <Image
+                    src="/image/feature-icon-2.svg"
+                    alt="featureOne"
+                    width={22}
+                    height={22}
+                  />
+                </div>
+                <h3 className="text-white text-xl font-semibold mb-2">E-Prescribing</h3>
+                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[240px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default CardWithText
+export default CardWithText;
