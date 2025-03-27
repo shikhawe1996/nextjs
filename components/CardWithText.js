@@ -13,9 +13,8 @@ const CardWithText = () => {
               Gallery of our cooked food.
             </h2>
             <p className="text-lg text-white mt-[30px] max-w-lg">
-              {" "}
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam{" "}
+              accusantium doloremque laudantium, totam
             </p>
             <div className="btn-wrap mt-[60px]">
               <a

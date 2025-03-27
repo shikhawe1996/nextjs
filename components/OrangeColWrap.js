@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const OrangeColWrap = () => {
   return (
-    <section className="orange-col-wrap py-[80px] ">
+    <section className="orange-col-wrap py-[80px] bg-orange ">
       <div className="container">
         <div className="content-wrap">
             <h5 className="text-lg text-orange uppercase mb-[12px]">
@@ -27,7 +27,7 @@ const OrangeColWrap = () => {
         </div>
           <div className="card-grid mt-[80px]">
             <div className="box-card flex flex-wrap gap-[24px]">
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+            <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -36,10 +36,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -48,10 +48,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -60,10 +60,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -72,10 +72,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -84,10 +84,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -96,10 +96,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -108,10 +108,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -120,10 +120,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -132,10 +132,10 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
-              <div className="cards group  bg-orange card relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
+              <div className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
                 <div className="image-wrap">
                   <Image
                     src="/image/feature-icon-2.svg"
@@ -144,8 +144,8 @@ const OrangeColWrap = () => {
                     height={22}
                   />
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-2 mt-4">E-Prescribing</h3>
-                <p className="text-white mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
+                <h3 className=" text-xl text-orange font-semibold mb-2 mt-4">E-Prescribing</h3>
+                <p className="text-orange mb-4 opacity-0 invisible h-0 group-hover:opacity-100 group-hover:visible group-hover:h-[280px] transition-all duration-300 ease-in-out">Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.</p>
               </div>
             </div>
           </div>
