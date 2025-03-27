@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Cta = () => {
   return (
-    <section className="cta relative w-full ">
+    <section className="cta relative w-full py-[80px] ">
      <div className="container">
         <div className="col-wrap flex gap-4 items-center bg-orange border-orange border-1 p-[100px] rounded-2xl ">
             <div className="col-span w-[50%] xxs:max-md:w-full">
