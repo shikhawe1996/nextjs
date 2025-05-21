@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <HeroBanner />
       <ColFourWrap />
-      <ColTwoWrap />
+      <ColTwoWrap />  
       <CardWithText />
       <OrangeColWrap />
       <Cta />

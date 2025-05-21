@@ -6,8 +6,8 @@ const ContentWithImage = () => {
         <div className="container">
             <div className="flex gap-8 items-center xxs:max-md:w-full xxs:max-md:flex-col">
                 <div className="col-span-2 w-1/2">
-                <h2 className="text-5xl font-semibold text-white max-w-md">Cooking together with the expert.</h2>
-                <p className='text-lg text-darkGray mt-[30px] max-w-lg'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</p>
+                <h2 className="text-5xl font-semibold text-white max-w-md">Premium Ingredients for Exceptional Taste</h2>
+                <p className='text-lg text-darkGray mt-[30px] max-w-lg'>Our commitment to quality starts with sourcing only the finest, freshest ingredients. We believe great food begins with great produce, meats, and spices, carefully selected from trusted suppliers. This ensures every dish you order bursts with authentic flavor and nutrition. Whether it’s farm-fresh vegetables, high-grade meats, or aromatic herbs, our ingredients meet the highest standards to deliver an unmatched taste experience. By prioritizing quality at the very start, we guarantee that every bite delights your palate and maintains consistent excellence.</p>
                 </div>
                 <div className="col-span-2 w-1/2">
                  <div className="image-wrap">
