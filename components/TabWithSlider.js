@@ -71,9 +71,7 @@ export const TabPage = () => (
 /* --- Tabs Component --- */
 function Tabs({ children }) {
   const childrenArray = React.Children.toArray(children);
-  const [current, setCurrent] = React.useState(
-    childrenArray[0].key || childrenArray[0].props.title
-  );
+  const [current, setCurrent] = React.useState(childrenArray[0].props.title);
 
   const newChildren = childrenArray.map((child) =>
     React.cloneElement(child, { selected: child.props.title === current })
@@ -87,7 +85,7 @@ function Tabs({ children }) {
           <button
             key={child.props.title}
             onClick={() => setCurrent(child.props.title)}
-            className={`whitespace-nowrap px-6 py-3 transition-colors duration-300 ${
+            className={`whitespace-nowrap px-6 py-3 cursor-pointer transition-colors duration-300 ${
               current === child.props.title
                 ? "border-b-2 border-orange-500 text-orange-600 font-semibold"
                 : "text-gray-500 hover:text-orange-500"

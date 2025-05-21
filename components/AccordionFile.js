@@ -28,6 +28,8 @@ const AccordionItem = ({index, title, content, isOpen, onClick}) => {
           cursor: "pointer",
           padding: "15px",
           fontSize: "30px",
+          backgroundColor: '#f1f1f1',
+          color: isOpen ? "#000" : "#333",
         
         }}
       >
@@ -70,7 +72,7 @@ const AccordionFile = ({ }) => {
   
 
 
-  const [activeTextIndex, setActiveTextIndex] = useState(null);
+  const [activeTextIndex, setActiveTextIndex] = useState(0);
   const [activeInfoIndex, setActiveInfoIndex] = useState(0);
   const toggleTextIndex = (index) => {
     setActiveTextIndex(index);
@@ -80,7 +82,7 @@ const AccordionFile = ({ }) => {
   };
   return(
 <div className='container mx-auto'>
-        <h3 className="text-5xl font-semibold mb-[30px]">Key Ingredients to Know</h3>
+        <h3 className="text-5xl text-center mt-[50px] font-semibold mb-[30px] ">Key Ingredients to Know</h3>
         <div
           className="main"
           style={{
@@ -112,7 +114,7 @@ const AccordionFile = ({ }) => {
           <div
             className="image-wrap"
             style={{
-              width: "320px",
+              width: "520px",
               minHeight: "200px",
               border: "1px solid #ccc",
               borderRadius: "10px",

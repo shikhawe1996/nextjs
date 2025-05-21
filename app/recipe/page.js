@@ -10,7 +10,7 @@ import Footer from "@/components/common/Footer";
 
 export default function Home() { 
     return(
-        <main classname="">
+        <main className="">
             <Header />
             <BannerThirdLevel />
             <ThreeCardWrapper />
