@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 
 import React , {useState, useEffect, useLayoutEffect,useRef } from 'react';
 const AccordionItem = ({index, title, content, isOpen, onClick}) => {
@@ -125,7 +126,7 @@ const AccordionFile = ({ }) => {
             
             }}
           >
-            <img
+            <Image
               src={accordionInfo[activeInfoIndex].image}
               alt={accordionInfo[activeInfoIndex].title}
               style={{ maxWidth: "100%", borderRadius: "8px" }}

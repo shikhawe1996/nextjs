@@ -10,7 +10,7 @@ const HeroBanner = () => {
             </h1>
             <p className="text-lg text-white mb-[50px]">
               Step into the kitchen with confidence as you cook alongside
-              seasoned culinary professionals. Whether you're a beginner eager
+              seasoned culinary professionals. Whether you are a beginner eager
               to master the basics or a home chef looking to try something new,
               our expert-led sessions make it easy to bring any recipe to life.
             </p>

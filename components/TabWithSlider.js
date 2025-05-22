@@ -6,15 +6,16 @@ export const TabPage = () => (
   <Tabs>
     <Tab title="Fast Delivery">
       <p className="text-base leading-relaxed white">
-        We understand the importance of time when hunger strikes. That’s why our
-        delivery system is optimized to ensure your food reaches you in 30
-        minutes or less. We’ve partnered with top-rated local delivery services
-        and trained our fleet for speed and efficiency. Live tracking allows you
-        to monitor your order in real-time, from kitchen to doorstep. Whether
-        you're at home, at the office, or hosting guests, your favorite meals
-        will arrive hot and fresh—guaranteed.
+        We understand the importance of time when hunger strikes. That&rsquo;s
+        why our delivery system is optimized to ensure your food reaches you in
+        30 minutes or less. We have partnered with top-rated local delivery
+        services and trained our fleet for speed and efficiency. Live tracking
+        allows you to monitor your order in real-time, from kitchen to doorstep.
+        Whether you are at home, at the office, or hosting guests, your favorite
+        meals will arrive hot and fresh—guaranteed.
       </p>
     </Tab>
+
     <Tab title="Easy Ordering">
       <p className="text-base leading-relaxed white">
         Ordering food has never been easier. With our intuitive user interface,
@@ -33,7 +34,7 @@ export const TabPage = () => (
         (like Paytm, Google Pay, PhonePe), and cash on delivery. Every online
         transaction is encrypted using industry-standard security protocols. We
         do not store sensitive card details and all gateways are PCI-DSS
-        compliant. Whether you're making a one-time order or saving your card
+        compliant. Whether you are making a one-time order or saving your card
         for future purchases, rest assured that your information is always safe.
       </p>
     </Tab>
@@ -50,12 +51,14 @@ export const TabPage = () => (
     <Tab title="Live Order Tracking">
       <p className="text-base leading-relaxed white">
         Stay informed at every step with our live order tracking feature. From
-        the moment you place your order, you’ll get updates on when it’s being
-        prepared, packed, picked up, and delivered. Watch your delivery partner
-        move across the map in real-time. You’ll even get ETA updates and be
-        able to call or chat with the delivery agent for coordination.
+        the moment you place your order, you&rsquo;ll get updates on when
+        it&rsquo;s being prepared, packed, picked up, and delivered. Watch your
+        delivery partner move across the map in real-time. You&rsquo;ll even get
+        ETA updates and be able to call or chat with the delivery agent for
+        coordination.
       </p>
     </Tab>
+
     <Tab title="Exclusive Offers">
       <p className="text-base leading-relaxed white">
         Save big with exclusive app-only deals, combo offers, and seasonal
