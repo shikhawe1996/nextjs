@@ -82,13 +82,15 @@ function Tabs({ children }) {
 
   return (
     <div className="container p-[20px]">
+       <h2 className="text-center text-5xl my-[50px]">Why Our Customers Love Us</h2>
       {/* Scrollable Tab Slider */}
       <div className="flex overflow-x-auto no-scrollbar border-b mb-4">
+       
         {childrenArray.map((child) => (
           <button
             key={child.props.title}
             onClick={() => setCurrent(child.props.title)}
-            className={`whitespace-nowrap px-6 py-3 cursor-pointer transition-colors duration-300 ${
+            className={`whitespace-nowrap text-[20px] px-6 py-3 cursor-pointer transition-colors duration-300 ${
               current === child.props.title
                 ? "border-b-2 border-orange-500 text-orange-600 font-semibold"
                 : "text-gray-500 hover:text-orange-500"
@@ -108,7 +110,7 @@ function Tabs({ children }) {
 /* --- Tab Component --- */
 function Tab({ children, selected }) {
   return (
-    <div hidden={!selected} className="text-lg md:text-xl white">
+    <div hidden={!selected} className="text-[18px] md:text-xl white">
       {children}
     </div>
   );

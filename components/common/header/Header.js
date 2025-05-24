@@ -53,18 +53,13 @@ const Header = () => {
                 </ul>
             </nav>
             <div className="last-wrap flex gap-8">
-                <a
-                href="#"
+                <Link
+                href="/sign-in"
                 className="border-1 border-white bg-white rounded-full py-[10px] px-[36px] text-xl text-orange hover:text-white hover:bg-orange hover:border-orange"
                 >
                 Sign In
-                </a>
-                <a
-                href="#"
-                className="border-1 border-white bg-white rounded-full py-[10px] px-[36px] text-xl text-orange hover:text-white hover:bg-orange hover:border-orange"
-                >
-                Sign Up{" "}
-                </a>
+                </Link>
+                
             </div>
             </div>
         </div>
