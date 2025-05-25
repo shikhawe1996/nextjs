@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import Image from "next/image";
 
-import React , {useState, useEffect, useLayoutEffect,useRef } from 'react';
-const AccordionItem = ({index, title, content, isOpen, onClick}) => {
+import React, { useState, useEffect, useLayoutEffect, useRef } from "react";
+const AccordionItem = ({ index, title, content, isOpen, onClick }) => {
   const ref = useRef(null);
   const [height, setHeight] = useState(0);
 
@@ -19,8 +19,8 @@ const AccordionItem = ({index, title, content, isOpen, onClick}) => {
         marginBottom: "10px",
         overflow: "hidden",
         transition: "all 0.3s ease",
-        maxWidth:"1000px",
-        alignContent:"center",
+        maxWidth: "1000px",
+        alignContent: "center",
       }}
     >
       <div
@@ -29,9 +29,8 @@ const AccordionItem = ({index, title, content, isOpen, onClick}) => {
           cursor: "pointer",
           padding: "15px",
           fontSize: "30px",
-          backgroundColor: '#f1f1f1',
+          backgroundColor: "#f1f1f1",
           color: isOpen ? "#000" : "#333",
-        
         }}
       >
         <h3 style={{ margin: 0 }}>{title}</h3>
@@ -43,15 +42,14 @@ const AccordionItem = ({index, title, content, isOpen, onClick}) => {
           transition: "height 0.3s ease",
         }}
       >
-        <div ref={ref} style={{ padding: "15px", fontSize: "20px",}}>
+        <div ref={ref} style={{ padding: "15px", fontSize: "20px" }}>
           {content}
         </div>
       </div>
     </div>
   );
 };
-const AccordionFile = ({ }) => {
-
+const AccordionFile = ({}) => {
   const accordionInfo = [
     {
       title: "Understanding Ingredients",
@@ -69,9 +67,6 @@ const AccordionFile = ({ }) => {
       image: "/image/foodOne.jpg",
     },
   ];
-  
-  
-
 
   const [activeTextIndex, setActiveTextIndex] = useState(0);
   const [activeInfoIndex, setActiveInfoIndex] = useState(0);
@@ -81,60 +76,62 @@ const AccordionFile = ({ }) => {
   const toggleImageIndex = (index) => {
     setActiveInfoIndex(index);
   };
-  return(
-<div className='container mx-auto'>
-        <h3 className="text-5xl text-center mt-[50px] font-semibold mb-[30px] ">Key Ingredients to Know</h3>
+  return (
+    <div className="container mx-auto">
+      <h3 className="text-5xl text-center mt-[50px] font-semibold mb-[30px] ">
+        Key Ingredients to Know
+      </h3>
+      <div
+        className="main"
+        style={{
+          display: "flex",
+          padding: "20px",
+          maxWidth: "1000px",
+          margin: "0 auto",
+          gap: "40px",
+        }}
+      >
+        <div>
+          {" "}
+          {accordionInfo.map((item, index) => (
+            <AccordionItem
+              key={index}
+              index={index}
+              title={item.title}
+              content={item.text}
+              isOpen={activeTextIndex === index}
+              onClick={() => {
+                toggleTextIndex(index);
+                toggleImageIndex(index);
+              }}
+            />
+          ))}
+        </div>
+
         <div
-          className="main"
+          className="image-wrap"
           style={{
+            width: "520px",
+            minHeight: "200px",
+            border: "1px solid #ccc",
+            borderRadius: "10px",
             display: "flex",
-            padding: "20px",
-            maxWidth: "1000px",
-            margin: "0 auto",
-            gap: "40px",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "10px",
           }}
         >
-          <div>
-            {" "}
-            {accordionInfo.map((item, index) => (
-              <AccordionItem
-                key={index}
-                index={index}
-                title={item.title}
-                content={item.text}
-                isOpen={activeTextIndex === index}
-                onClick={() => {
-                  toggleTextIndex(index);
-                  toggleImageIndex(index);
-                }}
-              />
-              
-            ))}
-          </div>
-
-          <div
-            className="image-wrap"
-            style={{
-              width: "520px",
-              minHeight: "200px",
-              border: "1px solid #ccc",
-              borderRadius: "10px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "10px",
-            
-            }}
-          >
-            <Image
-              src={accordionInfo[activeInfoIndex].image}
-              alt={accordionInfo[activeInfoIndex].title}
-              style={{ maxWidth: "100%", borderRadius: "8px" }}
-            />
-          </div>
+          <Image
+            src={accordionInfo[activeInfoIndex].image}
+            alt={accordionInfo[activeInfoIndex].title}
+            width={500} // Adjust as needed
+            height={300} // Adjust as needed
+            style={{ maxWidth: "100%", borderRadius: "8px", height: "auto" }}
+          />
         </div>
       </div>
-  )
-}
+    </div>
+  );
+};
 
 export default AccordionFile;
