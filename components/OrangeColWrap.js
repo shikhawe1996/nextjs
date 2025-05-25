@@ -1,5 +1,9 @@
+
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import React, { useState } from "react";
 
 const OrangeColWrap = () => {
   const OrangeData = [
@@ -13,21 +17,21 @@ const OrangeColWrap = () => {
     {
       id: 2,
       image: "/image/feature-icon-2.svg",
-      title: "Taste the Visuals – Our Food Gallery",
+      title: "Taste the Visuals  Our Food Gallery",
       description:
         "Combines sensory appeal with visual excitement. Good for apps or websites that want a stylish, foodie vibe",
     },
     {
       id: 3,
       image: "/image/feature-icon-2.svg",
-      title: "Chef’s Creations – A Feast for the Eyes",
+      title: "Chefs Creations  A Feast for the Eyes",
       description:
         "Highlights the expertise of chefs and adds elegance. Perfect for fine dining, curated meals, or premium brands.",
     },
     {
       id: 4,
       image: "/image/feature-icon-2.svg",
-      title: "Fresh from the Stove – Dish Showcase",
+      title: "Fresh from the Stove Dish Showcase",
       description:
         "Adds a sense of freshness and immediacy. Works well for modern, casual food brands or delivery apps.",
     },
@@ -36,12 +40,12 @@ const OrangeColWrap = () => {
       image: "/image/feature-icon-2.svg",
       title: "From Our Kitchen to Your Screen",
       description:
-        "Emphasizes the connection between the chef’s kitchen and the customer’s experience. Suitable for virtual cooking platforms or home-based food services.",
+        "Emphasizes the connection between the chefs kitchen and the customers experience. Suitable for virtual cooking platforms or home-based food services.",
     },
     {
       id: 6,
       image: "/image/feature-icon-2.svg",
-      title: "Made with Love – Food Highlights",
+      title: "Made with Love  Food Highlights",
       description:
         "Friendly and emotional tone, suggesting homemade or heartful cooking. Ideal for local, family-run, or comfort food businesses.",
     },
@@ -62,7 +66,7 @@ const OrangeColWrap = () => {
     {
       id: 9,
       image: "/image/feature-icon-2.svg",
-      title: "What’s Cooking? See for Yourself!",
+      title: "Whats Cooking? See for Yourself!",
       description:
         "Conversational and playful. Encourages user curiosity. Best for modern, youthful food brands or mobile apps.",
     },
@@ -74,6 +78,19 @@ const OrangeColWrap = () => {
         "Expect safe, clear prescriptions with automation built for high data quality and efficient prescriber/pharmacist collaboration.",
     },
   ];
+
+  const [sortData , setSortData]= useState("");
+
+  const DataHandle = [...OrangeData].sort((a,b) => {
+    if(sortData === "asc"){
+      return a.title.localeCompare(b.title);
+    }
+    else if((sortData === "desc")){
+return b.title.localeCompare(a.title)
+    }else{
+      return 0;
+    }
+  })
 
   return (
     <section className="orange-col-wrap py-[80px] bg-orange ">
@@ -99,9 +116,24 @@ const OrangeColWrap = () => {
             </Link>
           </div>
         </div>
+        <div className="sorting flex gap-3 justify-end mb-[30px] mt-[30px]">
+          <label htmlFor="sorting">Sort By:</label>
+          <div>
+            <label className="mr-2" htmlFor="default">Default</label>
+            <input type="radio" id="default" value="" name="sorting" checked={sortData === ""} onChange={(event) => setSortData(event.target.value)} />
+          </div>
+          <div>
+            <label className="mr-2" htmlFor="ascending">A-Z</label> 
+            <input type="radio" id="ascending" value="asc" name="sorting" checked={sortData === "asc"} onChange={(event) => setSortData(event.target.value)} />
+          </div>
+          <div>
+            <label className="mr-2" htmlFor="descending">Z-A</label>
+            <input type="radio" id="descending" value="desc" name="sorting" checked={sortData === "desc"} onChange={(event) => setSortData(event.target.value)} />
+          </div>
+        </div>
         <div className="card-grid mt-[80px]">
           <div className="box-card flex flex-wrap gap-[24px]">
-            {OrangeData.map((item,index)=>(
+            {DataHandle.map((item,index)=>(
             <div key={index} className="cards group bg-white  relative w-[288px] h-[260px] p-[24px] rounded-[8px] shadow-[0_4px_8px_0_rgba(0,42,59,0.08)] transition-all duration-300 ease-in-out hover:h-[280px]">
               <div className="image-wrap">
                 <Image
